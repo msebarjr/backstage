@@ -98,7 +98,7 @@ const SearchPage = () => {
                 className={classes.filter}
                 label="Kind"
                 name="kind"
-                values={['Component', 'Template']}
+                values={['Component', 'Template', 'Users', 'Groups']}
               />
               <SearchFilter.Checkbox
                 className={classes.filter}
